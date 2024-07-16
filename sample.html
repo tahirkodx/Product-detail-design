@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Room Layout</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-4">
+  <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-6">
+    <!-- Logo -->
+    <div class="flex justify-between items-center mb-4">
+      <img src="logo.png" alt="Logo" class="w-16">
+      <button class="bg-gray-200 p-2 rounded">Menu</button>
+    </div>
+    <!-- Add Rooms Header -->
+    <h1 class="text-xl font-bold mb-4">Add the rooms in your project</h1>
+    <!-- Finish Button -->
+    <button class="bg-orange-500 text-white py-2 px-4 rounded mb-4">Finished adding my rooms</button>
+    <!-- Room Tabs -->
+    <div class="flex space-x-2 mb-4">
+      <button class="bg-teal-500 text-white py-2 px-4 rounded">Room 1</button>
+      <button class="bg-gray-300 text-gray-700 py-2 px-4 rounded">Room 2</button>
+    </div>
+    <button class="text-teal-500 mb-4">+ Add Room</button>
+    <!-- Room Layout Selector -->
+    <div class="border p-4 rounded-lg">
+      <h2 class="text-lg font-bold mb-4">Room 1</h2>
+      <select class="bg-gray-200 p-2 rounded mb-4 w-full">
+        <option>Kitchen</option>
+        <!-- Add other room types here -->
+      </select>
+      <h3 class="text-md font-bold mb-2">Select your Room layout</h3>
+      <div class="grid grid-cols-2 gap-2">
+        <div class="border p-4 rounded cursor-pointer">Layout 1</div>
+        <div class="border p-4 rounded cursor-pointer">Layout 2</div>
+        <div class="border p-4 rounded cursor-pointer">Layout 3</div>
+        <div class="border p-4 rounded cursor-pointer">Layout 4</div>
+        <div class="border p-4 rounded cursor-pointer">Layout 5</div>
+        <div class="border p-4 rounded cursor-pointer">Layout 6</div>
+        <div class="border p-4 rounded cursor-pointer">Layout 7</div>
+        <div class="border p-4 rounded cursor-pointer">Create Custom</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
